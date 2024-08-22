@@ -1,0 +1,17 @@
+{
+    "name": "ruben/oop-interfaces",
+    "description": "Practice",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ruben",
+            "email": "gonzru01atwork@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -3,11 +3,11 @@ namespace Src\Characters;
 
 abstract class Character
 {
-    public int $hp;
-    public int $mana;
-    public int $atk;
-    public int $def;
-    public int $speed;
+    public int $hp = 10;
+    public int $mana = 5;
+    public int $atk = 4;
+    public int $def = 2;
+    public int $speed = 3;
     public string $name;
     public string $title;
 
@@ -35,7 +35,7 @@ abstract class Character
 
     public function isFaster(Character $character): bool
     {
-        return $this->speed > $character;
+        return $this->speed > $character->speed;
     }
 
     public function moveUp(): void
