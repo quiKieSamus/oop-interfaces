@@ -38,6 +38,8 @@ class Turn
         for ($i = 0; $i < count($this->chars); $i++) {
             $speeds[] = ['speed' => $this->chars[$i]->speed, 'character' => $this->chars[$i]];
         }
+        asort($speeds, SORT_DESC);
+        return $speeds;
     }
 
     public function takeTurn()
