@@ -27,6 +27,10 @@ abstract class Character
         print_r("I am " . $this->name);
     }
 
+    public function attack(Character $target): void {
+        print_r("I'm ({$this->name}) attacking {$target->name}");
+    }
+
     public function calculateDamage(Character $character): int
     {
         $result = $character->def - $this->atk;

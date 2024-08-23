@@ -1,8 +1,0 @@
-[22-Aug-2024 10:21:45 UTC] PHP Fatal error:  Uncaught Error: Class "Src\Characters\PlayableCharacter" not found in C:\xampp\htdocs\oop-interfaces\index.php:6
-Stack trace:
-#0 {main}
-  thrown in C:\xampp\htdocs\oop-interfaces\index.php on line 6
-[22-Aug-2024 10:24:47 UTC] PHP Notice:  Object of class Src\Characters\EnemyCharacter could not be converted to int in C:\xampp\htdocs\oop-interfaces\src\Characters\Character.php on line 38
-[22-Aug-2024 10:25:06 UTC] PHP Notice:  Object of class Src\Characters\EnemyCharacter could not be converted to int in C:\xampp\htdocs\oop-interfaces\src\Characters\Character.php on line 38
-[22-Aug-2024 10:26:28 UTC] PHP Notice:  Object of class Src\Characters\EnemyCharacter could not be converted to int in C:\xampp\htdocs\oop-interfaces\src\Characters\Character.php on line 38
-[22-Aug-2024 10:26:28 UTC] PHP Notice:  Object of class Src\Characters\EnemyCharacter could not be converted to int in C:\xampp\htdocs\oop-interfaces\src\Characters\Character.php on line 38
