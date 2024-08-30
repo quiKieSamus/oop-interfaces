@@ -52,7 +52,7 @@ abstract class Collection
     {
 
     }
-    public function empty()
+    public function isEmpty()
     {
         return $this->length() == 0;
     }
