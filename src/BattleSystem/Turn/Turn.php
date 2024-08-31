@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\BattleSystem;
+namespace Src\BattleSystem\Turn;
 
 use ChoiceFactory;
 use Src\BattleSystem\Choice\Choice;

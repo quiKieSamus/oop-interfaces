@@ -48,12 +48,16 @@ abstract class Collection
     {
         return count($this->elements);
     }
-    public function filter(mixed $element)
-    {
-
-    }
     public function isEmpty()
     {
         return $this->length() == 0;
+    }
+    public function find(mixed $item) {
+        return array_search($item, $this->elements);
+    }
+    public function forEach(callable $function) {
+        foreach($this->elements as $element) {
+            $function($element);
+        }
     }
 }

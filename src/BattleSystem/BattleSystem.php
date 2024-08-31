@@ -2,24 +2,21 @@
 
 namespace Src\BattleSystem;
 
+use Src\BattleSystem\Turn\Turn;
+use Src\BattleSystem\Turn\TurnCollection;
 use Src\Characters\Character;
 
 final class BattleSystem
 {
     public Character $characterA;
     public Character $characterB;
-    public array $turns;
+    public TurnCollection $turnCollection;
     public Turn $currentTurn;
 
     public function __construct(Character $characterA, Character $characterB)
     {
         $this->characterA = $characterA;
         $this->characterB = $characterB;
-    }
-
-    public function writeLog()
-    {
-        // define function
     }
 
     public function checkIfItsOver()
@@ -36,9 +33,5 @@ final class BattleSystem
 
     public function setCurrentTurn(Turn $turn) {
         $this->currentTurn = $turn;
-    }
-
-    public function addTurn() {
-        
     }
 }
